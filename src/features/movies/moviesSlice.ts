@@ -3,7 +3,7 @@ import {
   createAsyncThunk,
   type PayloadAction,
 } from "@reduxjs/toolkit";
-import { type Movie } from "../../data/mockMovies";
+import { type Movie } from "../../types/movie";
 import axios from "axios";
 
 interface MoviesState {

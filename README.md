@@ -2,6 +2,8 @@
 
 A modern movie discovery and management web application, using data from [The Movie Database (TMDB)](https://www.themoviedb.org/).
 
+🌐 **Live:** [test-movie-app-sylvaan.pages.dev](https://test-movie-app-sylvaan.pages.dev)
+
 ## 🛠️ Tech Stack
 
 | Technology      | Purpose                                |

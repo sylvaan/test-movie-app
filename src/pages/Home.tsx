@@ -4,7 +4,7 @@ import { Search, Plus, Loader2, AlertCircle } from 'lucide-react';
 import type { RootState, AppDispatch } from '../app/store';
 import { setSearchQuery, setSortBy, setPage, setFilterBy, fetchMovies } from '../features/movies/moviesSlice';
 import { fetchGenres } from '../features/genres/genresSlice';
-import { type Movie } from '../data/mockMovies';
+import { type Movie } from '../types/movie';
 import MovieCard from '../components/MovieCard';
 import MovieModal from '../components/MovieModal';
 

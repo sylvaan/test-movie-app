@@ -1,7 +1,7 @@
 import { useState, useEffect } from 'react';
 import { useDispatch } from 'react-redux';
 import { X } from 'lucide-react';
-import { type Movie } from '../data/mockMovies';
+import { type Movie } from '../types/movie';
 import { addMovie, updateMovie } from '../features/movies/moviesSlice';
 
 interface MovieModalProps {

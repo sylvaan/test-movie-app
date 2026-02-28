@@ -3,7 +3,7 @@ import { useSelector } from 'react-redux';
 import type { RootState } from '../app/store';
 import MovieCard from '../components/MovieCard';
 import MovieModal from '../components/MovieModal';
-import { type Movie } from '../data/mockMovies';
+import { type Movie } from '../types/movie';
 
 export default function Bookmarks() {
   const { items } = useSelector((state: RootState) => state.movies);

@@ -1,7 +1,7 @@
 import { useState } from 'react';
 import { useSelector, useDispatch } from 'react-redux';
 import { BookmarkPlus, BookmarkCheck, Star, Edit, Trash2 } from 'lucide-react';
-import { type Movie } from '../data/mockMovies';
+import { type Movie } from '../types/movie';
 import { toggleBookmark } from '../features/bookmarks/bookmarksSlice';
 import { deleteMovie } from '../features/movies/moviesSlice';
 import type { RootState } from '../app/store';
