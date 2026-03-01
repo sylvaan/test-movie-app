@@ -159,9 +159,12 @@ export default function Home() {
           ))}
         </div>
       ) : status === 'succeeded' ? (
-        <div className="text-center py-20 opacity-60">
+        <div className="flex flex-col items-center justify-center text-center py-20 opacity-60">
+          <div className="bg-[var(--card)] p-4 rounded-full mb-4 shadow-sm border border-[var(--border)]">
+            <Search size={40} className="opacity-50" />
+          </div>
           <h2 className="text-2xl font-bold">No movies found</h2>
-          <p className="mt-2">Try adjusting your search or filters.</p>
+          <p className="mt-2 text-sm max-w-sm">We couldn't find any movies matching your current filters or search query.</p>
         </div>
       ) : null}
 
