@@ -40,6 +40,7 @@ export default function MovieCard({ movie, onEdit }: MovieCardProps) {
             ? `https://image.tmdb.org/t/p/w500${movie.poster_path}` 
             : movie.poster_path}
           alt={movie.title}
+          loading="lazy"
           className={`w-full h-full object-cover transition-all duration-500 group-hover:scale-105 ${imgLoaded ? 'opacity-100' : 'opacity-0'}`}
           onLoad={() => setImgLoaded(true)}
           onError={(e) => {
